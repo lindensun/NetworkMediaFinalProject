@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For your safety</title>
+    <script src="libs/jquery-3.6.1.min.js"></script>
+    <style>
+        .SafetyList {
+            background-color: beige;
+            height: auto;
+            margin: 80px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+        .lists {
+            width: 50%;
+            text-align: center;
+
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('#cube').click(function () {
+                $(this).hide();
+                setTimeout(function () {
+                    $('#cube').show();
+                }, 3000);
+            });
+            $('p').click(function () {
+                $('p').hide();
+            });
+        })
+
+    </script>
+</head>
+
+<body>
+
+    <div class="SafetyList">
+        <ol>
+            <li class="lists">ddddddddddd</li>
+            <li class="lists">ffsdfa sefae</li>
+            <li class="lists"></li>
+            <li class="lists"></li>
+            <li class="lists"></li>
+            <li class="lists"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+</body>
+
+</html>

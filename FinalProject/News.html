@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Open Sans", sans-serif
+        }
+
+        #cube {
+            width: 50px;
+            height: 50px;
+            background-color: yellowgreen;
+        }
+
+        .w3-col.m3 {
+            width: 100%;
+        }
+
+        #rule{
+            background-color: rgb(248, 245, 240);
+            box-shadow: 3px 3px 5px gray;
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+    <script src="libs/jquery-3.6.1.min.js"></script>
+</head>
+
+<body class="w3-theme-l5">
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2"
+                href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="MainPage.html" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i
+                    class="fa fa-home w3-margin-right"></i>GIS</a>
+            <a href="News.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i
+                    class="fa fa-globe"></i></a>
+            <a href="AcountSettings.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+                title="Account Settings"><i class="fa fa-user"></i></a>
+            <a href="Messages.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i
+                    class="fa fa-envelope"></i></a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span
+                        class="w3-badge w3-right w3-small w3-green">3</span></button>
+                <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+                    <a href="#" class="w3-bar-item w3-button">One new friend request</a>
+                    <a href="#" class="w3-bar-item w3-button">UNKNOWN posted on your wall</a>
+                    <a href="#" class="w3-bar-item w3-button">UNKNOWN likes your post</a>
+                </div>
+            </div>
+            <a href="UserPAge.html" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white"
+                title="My Account">
+                <img src="Sample_User_Icon.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+            </a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="News.html" class="w3-bar-item w3-button w3-padding-large">News</a>
+        <a href="AcountSettings.html" class="w3-bar-item w3-button w3-padding-large">Account Settings</a>
+        <a href="Messages.html" class="w3-bar-item w3-button w3-padding-large">Messages</a>
+        <a href="UserPAge.html" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+    </div>
+
+    <!-- Page Container -->
+    <div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">
+        <div id="rule">
+            <h3>Breaking News!</h3>
+            <p> The 67-year-old was jailed on a charge of abuse of a corpse after it was discovered he’d kept his son’s body in his kitchen since 2018. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tellus arcu, ut semper sem tincidunt et. Duis quis magna condimentum, volutpat turpis a, vehicula felis. Pellentesque ligula tellus, pretium malesuada dui auctor, fermentum congue lectus. Integer leo magna, volutpat consectetur feugiat non, sodales faucibus odio. Ut laoreet risus turpis, eget sagittis metus ornare in. Suspendisse ultricies dolor ac suscipit porttitor. Nullam vulputate, lectus at rutrum elementum, metus ligula suscipit lacus, vel hendrerit orci sapien sed mi. Fusce dapibus hendrerit tellus et convallis. Vivamus sed ligula eu urna interdum vehicula. Curabitur lorem massa, aliquet in vulputate id, semper quis leo. Pellentesque pellentesque at mauris ac ultricies. Quisque dictum leo et tincidunt gravida. Sed felis nisl, accumsan et neque et, porta tincidunt nisl. Donec pellentesque quis libero ac porttitor.</p>
+            <h2 style="background-color: tan;">//In this page, the player can get clue of 2501. When player clicks word 'corpse', which is the initial character of 'Cat/Orchestra/Rain/Plants/Sky/Eye' in 'My Photos', the hint 'Password is 4 letters' will be given.</h2>
+            
+        </div>
+
+
+    <!-- End Page Container -->
+    </div>
+    <br>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-theme-d3 w3-padding-16">
+        <h5>G.I.S.</h5>
+    </footer>
+
+    <footer class="w3-container w3-theme-d5">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+
+    <script>
+        // Accordion
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-theme-d1";
+            } else {
+                x.className = x.className.replace("w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-theme-d1", "");
+            }
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        var postTime = 0;
+        function ChangePost() {
+            if (postTime == 0) {
+                document.getElementById('demo').innerHTML = "Don't click the post button"
+                postTime++;
+            }
+            else {
+                document.getElementById('demo').innerHTML = "I said it."
+            }
+
+        }
+
+        function Like() {
+            alert("You like them than me?");
+        }
+        $(document).ready(function () {
+            $('#alertbox').click(function () {
+                $(this.parentElement).hide();
+                setTimeout(function () {
+                    $('#alertparent').show();
+                }, 3000);
+            });
+
+        })
+
+        $(document).ready(function () {
+            $('#cube').click(function () {
+                $(this).hide();
+                setTimeout(function () {
+                    $('#cube').show();
+                }, 3000);
+            });
+
+        })
+    </script>
+    <div id="cube"></div>
+
+</body>
+
+</html>
